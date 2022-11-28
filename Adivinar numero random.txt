@@ -1,0 +1,16 @@
+var r = Math.floor(Math.random() * 10);
+var contador = 0;
+function comprobarNumeros(){
+  
+  if(this.r === this.num){
+    console.log("Has ganado!");
+    return false;
+  }else{
+    console.log("Numero equivocado");
+    return true;
+  }
+}
+
+do{
+  var num = parseInt(prompt("Introduce un numero del 0 al 9"));
+}while(comprobarNumeros())

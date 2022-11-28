@@ -1,0 +1,8 @@
+var stringA = prompt("Introduce una frase");
+var stringB = prompt("Introduce una palabra para comprobar si esta en la frase o no");
+
+if(stringA.includes(stringB)){
+  console.log("Cum")
+}else{
+  console.log("No cum")
+}

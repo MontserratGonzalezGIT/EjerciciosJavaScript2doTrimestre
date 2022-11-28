@@ -1,0 +1,17 @@
+var stringA = "Hola"
+var stringB = "Mica"
+stringA = stringA + " " + stringB
+
+console.log(stringA);
+
+stringA = stringA.replaceAll("a","puta")
+
+console.log(stringA);
+
+stringA = stringA.slice(0, 2);
+
+console.log(stringA);
+
+stringA = stringA.toUpperCase();
+
+console.log(stringA);
